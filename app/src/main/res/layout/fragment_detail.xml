@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.DetailFragment"
+    android:background="@color/black"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Название:"
+                android:textSize="25sp"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/rating.kp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рейтинг kp:"
+                android:textColor="@color/orange"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/rating.imdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рейтинг imdb:"
+                android:textColor="@color/orange"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/rating.filmCritics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рейтинг кртиков:"
+                android:textColor="@color/orange"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/rating.russianFilmCritics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Рейтинг Российских критиков:"
+                android:textColor="@color/orange"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Описание"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Описание"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
